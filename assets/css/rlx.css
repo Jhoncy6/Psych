@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .containera{
+
+    box-shadow: 1px 1px 5px #7f9e97;
+    background-color: rgb(203, 235, 220);
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 40px;
+    border-radius: 40px;
+
+
+  }
+
+  .fundo1 {
+    background-image: url(../img/index/fundo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .main1 {
+    background-color: #ffffff;
+  }
+  
+  .navbar {
+    background-color: #00a79d !important;
+    color: #ffffff !important;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .offcanvas-body,
+  .offcanvas-header {
+    background-color: #62daa8 !important;
+    background-image: none;
+  }
+  
+  .nav-link {
+    font-size: 23px !important;
+  }
+  
+  .collapse {
+    justify-content: flex-end !important;
+  }
+  
+  .nav-item {
+    padding: 0.3rem;
+  }
+  
+ 
+  
+  .subtitulo {
+    font-size: 20px;
+  }
+  
+  .button1 {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    position: relative;
+    padding: 6px 0;
+    font-size: 17px;
+    border-radius: 12px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #515169;
+    border: 1px solid #515169;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button1::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #515169;
+    transition: all .5s;
+    z-index: 0;
+  }
+  
+  .item3::before {
+    width: 100%;
+    height: 0%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
+  .item3:hover::before {
+    height: 600%;
+  }
+  
+  /*-----------------------------efeito botao-------------------------------*/
+  .btnn { 
+      width:100%;
+      line-height:40px;
+      max-width: 160px; 
+      font-size:1em;
+      color:rgb(255, 255, 255); 
+      cursor:pointer; 
+      display: block;
+      border-radius:50px; 
+      text-align:center; 
+      position: relative;
+      text-decoration: none;
+      vertical-align: middle;
+      float:left; 
+    
+  }
+  .btnn:hover {
+    text-decoration: none;
+  
+  
+  }
+  .btnn-efeito {
+      
+    overflow:hidden;
+    position:relative;
+    background-color:rgb(0, 0, 0); 
+  }
+  
+  
+  .btnn-efeito:hover {
+    background-color:#000000; 
+  }
+  
+  
+  .btnn-efeito span {
+    z-index: 20;
+  }
+  
+  
+  .btnn-efeito:after {
+    background: rgb(7, 245, 186);
+    content: "";
+    height: 155px;
+    left: -85px;
+    opacity:.4;
+    position: absolute;
+    top: -60px;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    -webkit-transition: all 850ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 850ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 70px;
+    z-index:1;
+  }
+  
+  
+  .btnn-efeito:hover:after {
+    left: 130%;
+    -webkit-transition: all 850ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 850ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  
+  
+  
+  
+  /*-------------------------------------------------------- Segunda Parte do Site ---------------------------------- */
+  
+  .fundo2 {
+    background-image: url("../img/index/fundo2.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+  }
+  
+  .SegundaParte{
+    background-color: #ffffff;
+  }
+  
+  .TituloContener2 {
+   
+    font-size: 55px;
+  }
+  
+  
+  .button2 {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    position: relative;
+    padding: 6px 0;
+    font-size: 17px;
+    border-radius: 12px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #515169;
+    border: 1px solid #515169;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button2::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #515169;
+    transition: all .5s;
+    z-index: 0;
+  }
+  
+  .item3::before {
+    width: 100%;
+    height: 0%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
+  .item3:hover::before {
+    height: 1010%;
+  }
+  
+  
+  /*-------------------------------------------------------- Terceira Parte do Site ---------------------------------- */
+  
+  .TerceiraParte {
+    background-color: #ffffff;
+  }
+  
+  .fundo3 {
+    background-image: url(../img/index/fundo3.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+  }
+  
+  .TituloContener3 {
+  
+    font-size: 40px;
+  }
+  .video3 {
+ 
+}
+
+  /*-------------------------------------------------------- Quarta Parte ---------------------------------- */
+  
+  .QuartaParte {
+    /* margin-top: 120px; */
+    background-color: #ffffff;
+  }

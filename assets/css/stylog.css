@@ -1,0 +1,92 @@
+body{
+    background-color:#00a79d ;
+   
+   
+   }
+   .form{
+       width: 800px;
+       margin: auto;
+       padding-top:40px;
+       display:flex ;
+   
+   }
+   
+   
+   
+   .imglogo{
+      
+       width: 35%;
+       margin-right: 20%;
+       
+   }
+   
+   .elemento{
+   
+    width: 100%;
+
+}
+
+   .card{
+       
+       box-shadow: 1px 1px 5px #7f9e97;
+       background-color: aliceblue;
+       padding: 100px;
+       margin: 100px;
+       border-radius: 40px;
+   
+   }
+   .card-top{
+       text-align: center;
+   
+   }
+   
+   
+   .card-group{
+       margin-bottom: 10px;
+    
+    position: relative;
+   
+   
+   }
+   
+   
+   
+   
+   
+   .card-group > label{
+       width: 100%;
+       font-size: 30px;
+       color:#00af9c;
+       display: flex;
+   
+   }
+   
+   .card-group > input{
+       border-radius: 5px;
+       outline: 0;
+       width: 100%;
+       height: 50%;
+       padding: 5px;
+       font-size: 30px;
+   }
+   
+   .card-group > button{
+       background-color:#00af9c;
+       width: 100%;
+       border-radius: 30px;
+       padding: 15px;
+       color: rgb(255, 255, 255);
+       border: 0;
+       outline: 0;
+       font-size: 20px;
+   
+   
+   }
+   .btn button:hover{
+   
+       background-color:#04796b;
+   
+   }
+   
+   
+   

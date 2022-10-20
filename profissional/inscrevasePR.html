@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/app.css">
+
+	<title>Inscreva-se Pschy</title>
+	
+	 <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../assets/css/styincPR.css">
+
+	
+	
+</head>
+<body>
+<form class="card" action = "cadastroPR_geral.php" method="POST">		
+			
+				<div class="card-top">
+					<img src="../assets/img/logoazul.PNG" class="imglogo" alt="">
+					 	
+						 <p style="font-family: verdana;color: #688686;">Terapeuta </p>
+						<p style="font-family: verdana;color: #52525e;">Por favor realize sua inscrição </p>
+				</div>
+				<Div>
+					<div class="card-group">
+						<label style="font-family: verdana;">Nome</label>
+						<input type="text" name="nomePR" placeholder="Digite seu nome completo" required>
+					</div>
+
+					<div class="card-group">
+						<label style="font-family: verdana;">Email</label>
+						<input type="email" name="emailPR" placeholder="Digite seu email" required>
+					</div>
+				 
+					<div class="card-group">
+						<label style="font-family: verdana;">Senha</label>
+						<input type="password" name="senhaPR" placeholder="Digite sua senha" required>
+												
+					</div>
+
+					<div class="card-group">
+						<label style="font-family: verdana;">Telefone</label>
+						<input type="tel" name="telPR" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+					</div>
+
+
+					<div class="card-group">
+						<label style="font-family: verdana;">Estado</label>
+						<select name="estadoPR">
+							<option value="RJ">Rio de Janeiro</option>
+							<option value="AC">Acre</option>
+							<option value="AL">Alagoas</option>
+							<option value="AP">Amapá</option>
+							<option value="AM">Amazonas</option>
+							<option value="BA">Bahia</option>
+							<option value="CE">Ceará</option>
+							<option value="ES">Epírito Santo</option>
+							<option value="GO">Goiás</option>
+							<option value="MA">Maranhão</option>
+							<option value="MT">Mato Grosso</option>
+							<option value="MS">Mato Grosso do Sul</option>
+							<option value="MG">Minas Gerais</option>
+							<option value="PA">Pará</option>
+							<option value="PB">Paraíba</option>
+							<option value="PR">Paraná</option>
+							<option value="PE">Pernambuco</option>
+							<option value="PI">Piauí</option>
+							<option value="RN">Rio Grande do Norte</option>
+							<option value="RS">Rio Grande do Sul</option>
+							<option value="RO">Rondônia</option>
+							<option value="RR">Roraima</option>
+							<option value="SC">Santa Catarina</option>
+							<option value="SP">São Paulo</option>
+							<option value="SE">Sergipe</option>
+							<option value="TO">Tocantins</option>
+							<option value="DF">Distrito Federal</option>
+						</select>							
+					</div>
+
+				
+					<div class="card-group">
+						<label style="font-family: verdana;">Cidade</label>
+						<input type="text" name="cidadePR" placeholder="Digite a Cidade onde você atente" required>
+					</div>
+
+
+					<div class="card-group">
+						<label style="font-family: verdana;">Bairro</label>
+						<input type="text" name="bairroPR" placeholder="Digite o Bairro onde você atente" required>
+					</div>
+				
+					
+					<div class="card-group">
+						<label style="font-family: verdana;">Rua</label>
+						<input type="text" name="rua" placeholder="Digite a Rua onde você atende" required>
+					</div>
+
+					<div class="card-group">
+						<label style="font-family: verdana;">Número</label>
+						<input type="number" name="numero" placeholder="Digite o número de onde você atende" required>
+					</div>
+
+					<div class="card-group">
+						<label style="font-family: verdana;">Complemento</label>
+						<input type="text" name="complemento" placeholder="Digite um complemento de onde você atende" required>
+					</div>
+				
+					<div class="card-group">
+						<label style="font-family: verdana;">CPF</label>
+						<input type="number" name="cpf" placeholder="Digite seu cpf" required>
+					</div>
+
+					<div class="card-group">
+						<label style="font-family: verdana;">Especialidade</label>
+						<input type="text" name="especialidade" placeholder="Digite sua especialidade" required>
+					</div>
+
+					<div class="card-group">
+						<label style="font-family: verdana;">Plano de Saúde</label>
+						<input type="text" name="planodesaude" placeholder="Digite os Planos que você atende" required>
+					</div>
+				
+
+				
+					<div class="card-group">
+						<input type="radio" id="female" name="gender" value="feminino">
+						<label for="male"style="font-family: verdana;" >Feminino</label>
+																
+					</div>
+					<div class="card-group">
+						<input type="radio" id="male" name="gender" value="masculino" >
+						<label for="male"style="font-family: verdana;" >Masculino</label>
+																
+					</div>
+					<div class="card-group">
+						<input type="radio" id="others" name="gender" value="outro">
+						<label for="others"style="font-family: verdana;" >Outros</label>
+																
+					</div>
+					<div class="card-group">
+						<input type="radio" id="none" name="gender" value="nulo">
+						<label for="none"style="font-family: verdana;" >Prefiro não dizer</label>
+																
+					</div>
+
+
+				<div class="card-group btn">
+					<button type="submit" style="font-family: verdana;">Acessar </button>
+																
+				</div>
+
+				</Div>
+
+				
+				<a href="#!" class="small text-muted" style="font-family: verdana;color:#33333a;">Terms of use.</a>
+				<a href="#!" class="small text-muted"  style="font-family: verdana;color: #33333a;"  >Privacy policy</a>
+
+		</div>
+	</form>
+</body>
+</html>

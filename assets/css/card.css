@@ -1,0 +1,36 @@
+*, *::after, *::before{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body {
+font-family: Verdana, Geneva, Tahoma, sans serif; 
+background-color: black;
+}
+
+
+.cards{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.card {
+color:#000000;
+padding: 30px;
+border-radius: 10px;
+border: 10px, solid,#000000;
+flex-basis: 25%;
+}
+
+.card:not(:first child){
+margin-top: 20px;
+}
+
+.card p {
+    margin-top: 20px;
+    font-size: 16px;
+}

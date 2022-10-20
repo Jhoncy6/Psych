@@ -1,0 +1,172 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	
+    <meta charset="UTF-8"> <!--aceitar acentos -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/app.css">
+
+	<title>Inscreva-se Pschy</title>
+	
+	 <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../assets/css/styincPA.css">
+
+	
+	
+	
+</head>
+<body>
+<form class="card" action = "cadastro_geral.php" method="POST">
+				
+				<div class="card-top">
+					<img src="../assets/img/logoazul.PNG" class="imglogo" alt="">
+					 	
+						 <p style="font-family: verdana;color: #688686;">Paciente </p>
+						<p style="font-family: verdana;color: #52525e;">Por favor realize sua inscrição </p>
+				</div>
+				
+
+				<div class="card-group">
+					<label style="font-family: verdana;">Nome</label>
+					<input type="text" name="nomePA" placeholder="Digite seu nome completo" required>
+				</div>
+
+
+				<div class="card-group">
+                    <label style="font-family: verdana;">Email</label>
+                    <input type="email" name="username" placeholder="Digite seu email" required>
+                </div>
+
+
+
+                <div class="card-group">
+                    <label style="font-family: verdana;">Senha</label>
+                    <input type="password" name="password" placeholder="Digite sua senha" required>
+
+                </div>
+
+
+
+                <div class="card-group">
+                    <label style="font-family: verdana;">Telefone</label>
+                    <input id="phonenum" name="telPA"type="tel" pattern="^\d{2}-\d{5}-\d{4}$" required placeholder="(xx) xxxxx-xxxx" >
+               
+                </div>
+
+
+
+                <div class="card-group">
+                    <label style="font-family: verdana;">Estado</label>
+                    <select name="estadoPA" >
+                        <option value="RJ" selected="selected">Rio de Janeiro</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="ES">Epírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="DF">Distrito Federal</option>
+                    </select>
+                </div>
+
+
+
+
+				<div class="card-group">
+					<label style="font-family: verdana;">Cidade</label>
+					<input type="text" name="cidadePA" placeholder="Digite sua Cidade" required>
+				</div>
+
+				
+
+				<div class="card-group">
+                    <label style="font-family: verdana;">Bairro</label>
+                    <input type="text" name="bairroPA" placeholder="Digite seu Bairro" required>
+                </div>
+
+
+
+                <div class="card-group">
+                    <label style="font-family: verdana;">Convênio</label>
+                    <select name="planodesaude" >
+                    <option value="Unimed">Unimed</option>
+                        <option value="Bradesco">Bradesco</option>
+                        <option value="LivySaude">LivySaude</option>
+                        <option value="PagBank">PagBank</option>
+                        <option value="Amil Saude">Amil Saude</option>
+                        <option value="Quali Saude">Quali Saude</option>
+                        <option value="Leve Saude">Leve Saude</option>
+                        </select>
+                </div>
+
+
+                <div class="card-group">
+                    <input type="radio" id="female" name="gender" value="feminino">
+                    <label for="male"style="font-family: verdana;" >Feminino</label>
+
+                </div>
+                <div class="card-group">
+                    <input type="radio" id="male" name="gender" value="masculino">
+                    <label for="male"style="font-family: verdana;" >Masculino</label>
+
+                </div>
+                <div class="card-group">
+                    <input type="radio" id="others" name="gender" value="outro">
+                    <label for="others"style="font-family: verdana;" >Outros</label>
+
+                </div>
+                <div class="card-group">
+                    <input type="radio" id="none" name="gender" value= "nulo">
+                    <label for="none"style="font-family: verdana;" >Prefiro não dizer</label>
+
+                </div>
+
+
+
+				<div class="card-group btn">
+					<button type="submit" nome="submit" onclick="displayRadioValue()" id="submit" data-bs-toggle="modal" data-bs-target="#usuarioModal" style="font-family: verdana;">Acessar </button>
+																
+				</div>
+
+
+
+                 <!-- Modal -->
+
+
+
+
+				<a href="#!" class="small text-muted" style="font-family: verdana;color:#33333a;">Terms of use.</a>
+				<a href="#!" class="small text-muted"  style="font-family: verdana;color: #33333a;"  >Privacy policy</a>
+
+		
+
+
+
+
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  .main1 {
+    background-color: #ffffff;
+  }
+
+  .navbar {
+    background-color: #00a79d !important;
+    color: #ffffff !important;
+  }
+  .offcanvas-body,
+  .offcanvas-header {
+    background-color: #62daa8 !important;
+    background-image: none;
+  }
+  
+  .nav-link {
+    font-size: 23px !important;
+  }
+  
+  .collapse {
+    justify-content: flex-end !important;
+  }
+  
+  .nav-item {
+    padding: 0.3rem;
+  } 
+
+.logo {
+    width: 100px ;
+  }
+
+  .titulo {
+    color: #00a79d;
+  }
+
+.sobretexto{
+    color: #00a79d;
+  }
+
+
+  

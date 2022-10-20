@@ -1,0 +1,40 @@
+body{
+    background-color: #fefefe;
+}
+
+.t-modal .modal-content{
+    border-top-left-radius: 10px;
+    border-top-left-radius:10px;
+
+    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    border-bottom: 3px solid transparent;
+}
+
+.t-modal .modal-header{
+padding:30px 15px;
+}
+
+.t-modal .modal-title{
+    text-transform:uppercase;
+    font-size: 20px;
+}
+
+.t-modal .modal-title,
+.t-modal .close{
+    color: #fff;
+}
+/* primary */
+
+.t-modal.primary .modal-content{
+border-color: #020642;
+
+}
+
+.t-modal.primary .modal-header{
+    background-color: #00a79d !important
+}
+.t-modal {
+animation: bounce;
+}
